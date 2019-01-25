@@ -101,9 +101,7 @@
       "dependsOn": [
         "VnetDeployment"
       ]
-    }
-  ],
-  "resources": [
+    },
     {
       "apiVersion": "2017-05-10",
       "name": "storageAccountDeployment",
