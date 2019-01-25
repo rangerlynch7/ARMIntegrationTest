@@ -67,7 +67,7 @@
       }
     },
     "variables": {
-      "templateBaseUrl": "https://raw.githubusercontent.com/rangerlynch7/AzDevopsTest/master/",
+      "templateBaseUrl": "https://raw.githubusercontent.com/rangerlynch7/ARMIntegrationTest/master/",
       "virtualNetworkTemplateUrl": "[concat(variables('templateBaseUrl'), 'VirtualNetwork.json')]",
       "subnetTemplateUrl": "[concat(variables('templateBaseUrl'), 'Subnet.json')]",
       "storageAccountTemplateUrl": "[concat(variables('templateBaseUrl'), 'StorageAccount.json')]"
