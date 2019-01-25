@@ -113,8 +113,10 @@
         "templateLink": {
           "uri": "[variables('storageAccountTemplateUrl')]"
         },
-         "parameters": {
-          "uri": {"value":"[variables('storageAccountParametersUrl')]"}
+        "parameters": {
+          "storageAccountName":{"value": "[parameters('storageAccountName')]"},
+          "storageAccountType":{"value": "[parameters('storageAccountType')]"},
+          "storageAccountKind":{"value": "[parameters('storageAccountKind')]"}
         }
       }
     }
