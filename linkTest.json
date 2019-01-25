@@ -70,7 +70,8 @@
       "templateBaseUrl": "https://raw.githubusercontent.com/rangerlynch7/ARMIntegrationTest/master/",
       "virtualNetworkTemplateUrl": "[concat(variables('templateBaseUrl'), 'VirtualNetwork.json')]",
       "subnetTemplateUrl": "[concat(variables('templateBaseUrl'), 'Subnet.json')]",
-      "storageAccountTemplateUrl": "[concat(variables('templateBaseUrl'), 'StorageAccount.json')]"
+      "storageAccountTemplateUrl": "[concat(variables('templateBaseUrl'), 'StorageAccount.json')]",
+      "storageAccountParametersUrl":"[concat(variables('templateBaseUrl'), 'saParams.json')]"
     },
     "resources": [
       {
@@ -118,10 +119,7 @@
             "uri": "[variables('storageAccountTemplateUrl')]"
           },
            "parameters": {
-            "vnetName":{"value": "[parameters('vnetName')]"},
-            "vnetAddressPrefix":{"value": "[parameters('vnetAddressPrefix')]"},
-            "subnetName":{"value": "[parameters('subnetName')]"},
-            "subnetPrefix":{"value": "[parameters('subnetPrefix')]"}
+            "uri": "[variables('storageAccountParametersUrl')]"
           }
         }
       }
