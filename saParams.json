@@ -10,9 +10,6 @@
       },
       "storageAccountKind": {
         "value": "StorageV2"
-      },
-      "location": {
-        "value": "resourceGroup().location"
       }
     }
  }
