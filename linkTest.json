@@ -25,7 +25,7 @@
       "metadata": {
         "description": "Name of the Subnet"
       }
-    },
+    }
   },
   "variables": {
     "templateBaseUrl": "https://raw.githubusercontent.com/rangerlynch7/ARMIntegrationTest/master/",
