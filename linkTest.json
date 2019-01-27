@@ -112,7 +112,9 @@
           "uri": "[variables('storageAccountTemplateUrl')]"
         },
         "parameters": {
-          "uri": "[variables('storageAccountParametersUrl')]"
+          "uri":{
+            "value": "[variables('storageAccountParametersUrl')]"
+          } 
         }
       }
     }
