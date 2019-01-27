@@ -114,7 +114,7 @@
         "parameters": {
           "uri":{
             "value": "[variables('storageAccountParametersUrl')]"
-          } 
+          }
         }
       }
     }
