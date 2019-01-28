@@ -25,20 +25,7 @@
       "metadata": {
         "description": "Name of the Subnet"
       }
-    },
-    "storageAccountType": {
-        "type": "string",
-        "defaultValue": "Standard_LRS",
-        "allowedValues": [
-          "Standard_LRS",
-          "Standard_GRS",
-          "Standard_ZRS",
-          "Premium_LRS"
-        ],
-        "metadata": {
-          "description": "Type of the Storage Account, please choose from allowed values"
-        }
-      },
+    }
   },
   "variables": {
     "templateBaseUrl": "[deployment.properties.templatelink.uri]",
@@ -83,6 +70,6 @@
         "VnetDeployment"
       ]
     }
-    },
+    }
   ]
 }
