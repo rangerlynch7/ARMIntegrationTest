@@ -39,25 +39,6 @@
           "description": "Type of the Storage Account, please choose from allowed values"
         }
       },
-      "storageAccountName": {
-        "type": "string",
-        "metadata": {
-          "description": "Name of the Storage Account, must be unique as it has a FQDN"
-        }
-      },
-      "storageAccountKind": {
-        "type": "string",
-        "allowedValues": [
-          "Storage",
-          "StorageV2",
-          "BlobStorage",
-          "FileStorage",
-          "BlockBlobStorage"
-        ],
-        "metadata": {
-          "description": "Storage Account kind"
-        }
-      }
   },
   "variables": {
     "templateBaseUrl": "[deployment.properties.templatelink.uri]",
