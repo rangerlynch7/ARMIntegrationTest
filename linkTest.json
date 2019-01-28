@@ -28,7 +28,7 @@
     }
   },
   "variables": {
-    "templateBaseUrl": "[deployment.properties.templatelink.uri]",
+    "templateBaseUrl": "https://raw.githubusercontent.com/rangerlynch7/ARMIntegrationTest/master/",
     "virtualNetworkTemplateUrl": "[uri(variables('templateBaseUrl'), 'VirtualNetwork.json')]",
     "subnetTemplateUrl": "[uri(variables('templateBaseUrl'), 'Subnet.json')]",
     "storageAccountTemplateUrl": "[uri(variables('templateBaseUrl'), 'StorageAccount.json')]",
